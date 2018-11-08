@@ -39,6 +39,7 @@ namespace House
             opponent = new Opponent(frontYard);
             moveToNewLocation(livingRoom);
             ResetGame(false);
+            locationSelectionBox.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void ResetGame(bool displayMessage)
